@@ -18,6 +18,133 @@
 
 ---
 
+
+official docs
+
+- Routing (the core of next.js)
+    - [❗] Middleware
+    - Parallel Routes
+    - Internationalization
+    - Intercepting Routes
+    - Defining Routes
+    - Pages and Layouts
+    - Linking and Navigating
+    - Routes Groups
+    - Dynamic Routes
+    - Loading UI and Streaming
+    - Error Handling
+    - Route Handlers
+
+- hooks
+    - useParams
+    - usePathname
+    - useRouter
+    - useSearchParams
+    - useSelectedLayoutSegment
+    - useSelectedLayoutSegments
+    - useReportWebVitals
+
+- Functions
+    - cookies
+    - draftMode
+    - fetch
+    - generateMetadata
+    - generateStaticParams
+    - headers
+    - imageResponse
+    - NextRequest
+    - NextResponse
+    - notFound
+    - redirect
+    - revalidatePath
+    - revalidateTag
+
+- API Reference
+    - File Conventions
+    - default.js
+    - error.js
+    - layout.js
+    - loading.js
+    - not-found.js
+    - page.js
+    - route.js
+    - Route Segment Config
+    - template.js
+    - metadata
+        - favicon.ico, apple-icon.jpg, and icon.jpg
+        - opengraph-image.js and twitter-image.js
+        - robots.txt
+        - sitemap.xml
+
+- Rendering
+    - Static and Dynamic
+    - Edge and Node.js Runtimes
+        - export const runtime = 'edge'; 
+        - export const runtime = 'nodejs'; 
+        - export const runtime = 'experimental-edge'; 
+        - // https://github.com/vercel/next.js/issues/39800
+
+- Data Fetching
+    - Fetching
+    - Caching
+    - Revalidating
+    - Server Actions
+
+- Optimizing
+    - Images
+    - Fonts
+    - Scripts
+    - Metadata
+    - Static Assets
+    - Lazy Loading
+    - Analytics
+    - OpenTelemetry
+    - Instrumentation
+
+- Components
+    - Font
+    - Image
+    - Link
+    - Script
+
+
+
+- next.config.js Options
+    - appDir
+    - assetPrefix
+    - basePath
+    - compress
+    - devIndicators
+    - distDir
+    - env
+    - eslint
+    - exportPathMap
+    - generateBuildId
+    - generateEtags
+    - headers
+    - httpAgentOptions
+    - images
+    - mdxRs
+    - onDemandEntries
+    - output
+    - pageExtensions
+    - poweredByHeader
+    - productionBrowserSourceMaps
+    - reactStrictMode
+    - redirects
+    - rewrites
+    - Runtime Config
+    - serverComponentsExternalPackages
+    - trailingSlash
+    - transpilePackages
+    - turbo
+    - typedRoutes
+    - typescript
+    - urlImports
+    - webpack
+    - webVitalsAttribution
+---
+
 # version history
 
 ## Next.js 13.4
