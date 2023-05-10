@@ -1,17 +1,19 @@
 
-export default async function SomeComponent() {
+export default async function ExampleServerComponent() {
 
-    // const res = await fetch('https://hacker-news.firebaseio.com/v0/1.json')
-    const res = await fetch('https://jsonplaceholder.typicode.com/todos/1')
-    .then(response => response.json())
-    // .then(json => console.log(json))
+    const res = (typeof window === "undefined")
+                ? await fetch('https://jsonplaceholder.typicode.com/todos/1').then(response => response.json())
+                : null 
 
-    // console.log({res});
-    
     return (
         <>
-            <div className="">
-                {JSON.stringify(res)}
+            <div className="" style={{border : "1px solid red"}}>
+                <div className="">
+                    i am RSCForFetch
+                </div>                
+                <div className="">
+                    {JSON.stringify(res)}
+                </div>
             </div>
         </>
     )

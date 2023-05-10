@@ -1,4 +1,4 @@
-import RSCForFetch from '../../components/RSCForFetch'
+import RSCForFetch from '../components/RSCForFetch'
 
 export default function A() {
     return (

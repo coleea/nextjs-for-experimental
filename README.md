@@ -1,11 +1,24 @@
-# version history
+# check these out
 
 - [✅] Routes Groups
 - [🚫] Parallel Routes
     - Parallel routes are created using named slots
     - https://nextjs.org/docs/app/building-your-application/routing/parallel-routes
 
+- [✅] Catch-all Segments
+    - https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#catch-all-segments
+    - [✅] optional catch-all segments
+
+- next.js의 suspense는 cache됨
+    - 캐쉬되면 이후부터는 suspense 무시하고 캐시된 컴포넌트 바로 보내줌
+    - fallback이 표시되지 않는것이 증거
+
+- Passing Server Components to Client Components as Props
+    https://nextjs.org/docs/getting-started/react-essentials#recommended-pattern-passing-server-components-to-client-components-as-props
+
 ---
+
+# version history
 
 ## Next.js 13.4
 Friday, May 5th 2023 (5 days ago)
