@@ -31,7 +31,7 @@ export default function A() {
             <div className="">
                 i am test page
                 {/* @ts-expect-error Async Server Component */}
-                {/* <RSCForFetch /> */}
+                <RSCForFetch />
             </div>
         </>
     )
