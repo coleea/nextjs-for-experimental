@@ -1,6 +1,12 @@
 
 # check these out
 
+- [✅] 테스트 : recoil on server components
+    - 확인완료. 에러발생함
+    - error createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+
+- Force Render of Layout
+
 - Using Apollo Client with Next.js 13: releasing an official library to support the App Router
     - https://www.apollographql.com/blog/announcement/frontend/using-apollo-client-with-next-js-13-releasing-an-official-library-to-support-the-app-router/
 - [🚫] nested layout
