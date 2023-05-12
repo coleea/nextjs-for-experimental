@@ -6,6 +6,8 @@ export const runtime = 'experimental-edge';
 
 export default async function C() {
 
+    console.log('this function runs on experimental-edge');
+    
      const res = await fetch('https://jsonplaceholder.typicode.com/todos/1')
                 .then(response => response.json())
   

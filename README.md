@@ -1,6 +1,13 @@
 
 # check these out
 
+- Loading UI and Streaming
+    - Data Fetch 하는동안 Loading UI보여주는 기능
+
+- [🚫] 테스트 : export const runtime = "experimental-edge"
+    - 이것은 vercel의 edge runtime과 관련있을 것으로 추정됨
+    - 안정화가 안되었기 때문에 "experimental-edge" 이고 안정화되면 "edge"로 바뀔것
+    
 - [✅] 테스트 : recoil on server components
     - 확인완료. 에러발생함
     - error createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
