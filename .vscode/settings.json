@@ -1,0 +1,7 @@
+{
+    "typescript.tsserver.log": "verbose",
+    "typescript.tsserver.logVerbosity": "verbose",
+    "typescript.tsserver.errorOnUnresolvedTypeReference": true,
+    "typescript.tsserver.trace": "verbose"
+  }
+  

@@ -1,5 +1,9 @@
+
 # check these out
 
+- Using Apollo Client with Next.js 13: releasing an official library to support the App Router
+    - https://www.apollographql.com/blog/announcement/frontend/using-apollo-client-with-next-js-13-releasing-an-official-library-to-support-the-app-router/
+- [🚫] nested layout
 - [✅] Routes Groups
 - [🚫] Parallel Routes
     - Parallel routes are created using named slots

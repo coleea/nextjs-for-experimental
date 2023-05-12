@@ -19,11 +19,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+             <script async type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+              <script async type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.7.js"></script>
+ 
+      </head>
       {/* <body className={inter.className}>{analytics}</body> */}
       {/* <body className={inter.className}>{team}</body> */}
       
-      <body className={inter.className}>
-        {children}
+      <body className={inter.className} style={{display : "flex"}}>
+        <div className="" style={{height : "100vh", width : "200px"}}>
+          this is root layout 
+
+          <ul>
+            <li>some menu 1</li>
+            <li>some menu 2</li>
+          </ul>
+        </div>
+        <div className="">
+            {children}
+        </div>
         </body>
     </html>
   )
